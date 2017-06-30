@@ -1,0 +1,36 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+    <envs pass-parent-envs="false">
+      <env name="DEBUG" value="imageSearch:*" />
+      <env name="ENV_KEY" value="AIzaSyDZEcJYb0RHX80Dsu6PuqwdwWPVi49S5_c" />
+      <env name="ENV_SEARCH_ENGINE" value="013903968290142574027:uhar7okfrey" />
+      <env name="MONGO_URI" value="mongodb://rick:win32api@ds131492.mlab.com:31492/freecodecamp" />
+    </envs>
+    <browser start="true" url="http://localhost:3000/" />
+    <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+      <option name="envVars">
+        <list />
+      </option>
+      <option name="extraHosts">
+        <list />
+      </option>
+      <option name="links">
+        <list />
+      </option>
+      <option name="networkDisabled" value="false" />
+      <option name="networkMode" value="bridge" />
+      <option name="portBindings">
+        <list />
+      </option>
+      <option name="publishAllPorts" value="false" />
+      <option name="version" value="1" />
+      <option name="volumeBindings">
+        <list />
+      </option>
+    </EXTENSION>
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+      <browser start="true" url="http://localhost:3000/" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>
