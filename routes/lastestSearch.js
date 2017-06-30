@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 
     searchLogModel
         .find({})
-        .sort('when')
+        .sort('-when')
         .exec(function (err, items) {
 
             if (err) console.log(err);
